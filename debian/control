@@ -1,0 +1,15 @@
+Source: xserver-xorg-video-mali
+Section: x11
+Priority: optional
+Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: debhelper (>= 9), autotools-dev,
+ xorg-dev,
+ mali-x11
+Standards-Version: 3.9.5
+Homepage: https://github.com/mdrjr/c1_mali_ddx
+
+Package: xserver-xorg-video-mali
+Architecture: armhf
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: X11 driver for MALI
+ X11 driver for getting OpenGLES on MALI
