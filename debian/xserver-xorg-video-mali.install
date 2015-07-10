@@ -1,0 +1,2 @@
+src/xorg.conf /etc/X11/
+usr/lib/*/xorg/modules/drivers/*
