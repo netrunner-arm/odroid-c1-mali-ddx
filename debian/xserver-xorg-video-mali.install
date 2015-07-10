@@ -1,2 +1,2 @@
 src/xorg.conf /etc/X11/
-usr/lib/*/xorg/modules/drivers/* /usr/lib/xorg/modules/drivers/
+debian/xserver-xorg-video-mali/usr/lib/*/xorg/modules/drivers/* /usr/lib/xorg/modules/drivers/
