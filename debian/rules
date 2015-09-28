@@ -2,5 +2,6 @@
 
 %:
 	export LIBRARY_PATH=/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl:$(LIBRARY_PATH)
+	export LD_LIBRARY_PATH=/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl:$(LD_LIBRARY_PATH)
 	dh $@  --with autotools-dev
 
