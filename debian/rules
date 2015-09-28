@@ -4,5 +4,5 @@ LDFLAGS=$(shell dpkg-buildflags --get LDFLAGS)
 LDFLAGS+="-L/usr/lib/$(DEB_HOST_MULTIARCH)/mali-egl"
 
 %:
-	dh $@  --with autotools-dev
+	dh $@  --with autotools-dev -- $(LDFLAGS)
 
