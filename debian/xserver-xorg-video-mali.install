@@ -1,2 +1,2 @@
-src/xorg.conf /etc/X11/
+debian/40-mali.conf /etc/X11/xorg.conf.d/
 debian/xserver-xorg-video-mali/usr/lib/*/xorg/modules/drivers/* /usr/lib/xorg/modules/drivers/
