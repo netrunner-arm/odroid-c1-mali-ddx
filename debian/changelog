@@ -1,4 +1,4 @@
-xserver-xorg-video-mali (0-1) unstable; urgency=low
+xserver-xorg-video-mali (20150118-fa6394b-3) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
